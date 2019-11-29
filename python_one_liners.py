@@ -5,3 +5,5 @@ import string
 print([x for x in (string.ascii_uppercase[:N])])
 # Largest number in a strings index
 print(numbers.index(max(numbers)))
+# Double for loop pattern in list comprehension
+print([x for b in a for x in b])
